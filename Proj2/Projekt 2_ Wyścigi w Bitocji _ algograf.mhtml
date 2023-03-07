@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Projekt 2: Wyścigi w Bitocji | algograf</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Projekt 2: Wyścigi w Bitocji" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Laboratorium z przedmiotu Algorytmy Grafowe" />
+<meta property="og:description" content="Laboratorium z przedmiotu Algorytmy Grafowe" />
+<link rel="canonical" href="https://faliszew.github.io/algograf/project2.html" />
+<meta property="og:url" content="https://faliszew.github.io/algograf/project2.html" />
+<meta property="og:site_name" content="algograf" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"https://faliszew.github.io/algograf/project2.html","headline":"Projekt 2: Wyścigi w Bitocji","description":"Laboratorium z przedmiotu Algorytmy Grafowe","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/algograf/assets/css/style.css?v=58f9db3f20e3294df224a093c6f0855fe7203f0f">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://faliszew.github.io/algograf/">algograf</a></h1>
+      
+
+      <h1 id="projekt-2-wyścigi-w-bitocji">Projekt 2: Wyścigi w Bitocji</h1>
+
+<p>W ramach projektu należy napisać program w języku C/C++ rozwiązujący poniższe zadanie. Następnie
+program należy zgłosić w systemie OIOIOI. Projekt zostanie oceniony w
+sposób konkursowy:</p>
+<ul>
+  <li>osoby z najlepszymi programami otrzymają  +1.5 do oceny końcowej</li>
+  <li>osoby z dobrymi programami otrzymują +1.0 do oceny końcowej</li>
+  <li>osoby z programami niezbyt dobrymi (rozwiązującymi mało testów) otrzymują +0.5 do oceny końcowej</li>
+  <li>osoby, które nie nadeślą programu lub ich program nie będzie działał otrzymują +0.0 do oceny końcowej</li>
+</ul>
+
+<p>Termin nadsyłania rozwiązań: <strong>27 stycznia 2020r., godz: 12:00</strong></p>
+
+<h2 id="treść-zadania">Treść zadania</h2>
+
+<p>Król Laboratoriusz VII z okazji 7-ej rocznicy objęcia tronu Bitocji
+postanowił zorganizować serię wyścigów samochodowych. Wyścigi mają się
+odbywać po trasach zamkniętych, składających się z odcinków autostrady
+łączących miasta Bitocji. Król chce, żeby każde miasto było
+zaangażowane w dokładnie jeden wyścig.  W tym celu należy sprawdzić,
+czy da się wynająć odpowiednie odcinki autostad. Należy jednak
+pamiętać o następujących ograniczeniach:</p>
+
+<ul>
+  <li>
+    <p>w Bitocji wszystkie autostrady są jednokierunkowe,</p>
+  </li>
+  <li>
+    <p>z każdego miasta wychodzą co najwyżej dwa odcinki autostrady,
+którymi można dojechać do innych miast,</p>
+  </li>
+  <li>
+    <p>do każdego miasta dochodzą co najwyżej dwa odcinki autostrady,
+którymi można przyjechać z innych miast,</p>
+  </li>
+  <li>
+    <p>żeby wynająć dany odcinek autostrady, należe zapłacić cenę <em>x</em> taką,
+że <em>l &lt;= x &lt;= u</em> (gdzie parametry <em>l</em> i <em>u</em> mogą być różne dla
+różnych odcinków autostrady; koszt wynajęcia autostrady nie może być
+mniejszy niż <em>l</em> bo byłoby to nieopłacalne i nie może być wyższy niż
+<em>u</em> bo skomplikowane prawo Bitocji wyznacza górne granice cen wynajmu),</p>
+  </li>
+  <li>
+    <p>Król wymaga, żeby ustalić jedną cenę wynajmu dla wszystkich
+wynajętych odcinków autostrady (każde miasto otrzyma pieniądze za
+fragment autostrady z niego wychodzący i Król Laboratoriusz VII chce
+być sprawiedliwy).</p>
+  </li>
+</ul>
+
+<p>Proszę napisać program, który mając na wejściu opis sieci autostrad
+Bitocji oraz dopuszczalnych kosztów wynajmu stwierdza, czy da się
+zorganizować serię wyścigów tak, żeby przez każde miasto przebiegała
+trasa dokładnie jednego. Program wypisać proponowaną cenę
+wynajmu oraz listę odcinków autostrady, które należy wynająć.</p>
+
+<h3 id="format-danych-wejściowych">Format danych wejściowych</h3>
+
+<p>Plik wejściowy (który ma być wczytywany ze standardowego wejścia) ma
+następujący format. W pierwszej linijce znajduje się liczba przypadków
+testowych zawartych w pliku. Następnie w pliku znajdują się opisy tych
+przypadków w następującym formacie:</p>
+
+<ul>
+  <li>
+    <p>W pierwszej linii znajduje się liczba <em>n</em> miast w Bitocji (miasta mają 
+nazwy 1, 2, 3, …, <em>n</em>).</p>
+  </li>
+  <li>
+    <p>W drugiej linii znajduje się liczba <em>m</em> odcinków autostrady.</p>
+  </li>
+  <li>
+    <p>W kolejnych <em>m</em> linijkach znajdują się opisy fragmentów autostrady. Każdy
+opis składa się z czterech liczb <em>from</em>, <em>to</em>, <em>l</em> i <em>u</em>, które mają następujące
+znaczenie:</p>
+    <ul>
+      <li>autostrada biegnie od miasta <em>from</em> do miasta <em>to</em></li>
+      <li>ten odcinek można wynając tylko wtedy, jeśli przyjmie się cenę <em>x</em>
+taką, że <em>l &lt;= x &lt;= r</em>.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Przykładowy plik wejściowy może być postaci:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="mi">2</span>
+<span class="mi">2</span>
+<span class="mi">2</span>
+<span class="mi">1</span> <span class="mi">2</span> <span class="mi">5</span> <span class="mi">10</span>
+<span class="mi">2</span> <span class="mi">1</span> <span class="mi">11</span> <span class="mi">20</span>
+<span class="mi">4</span>
+<span class="mi">6</span>
+<span class="mi">1</span> <span class="mi">2</span> <span class="mi">5</span> <span class="mi">10</span>
+<span class="mi">2</span> <span class="mi">3</span> <span class="mi">4</span> <span class="mi">6</span>
+<span class="mi">3</span> <span class="mi">4</span> <span class="mi">7</span> <span class="mi">12</span>
+<span class="mi">4</span> <span class="mi">1</span> <span class="mi">5</span> <span class="mi">6</span>
+<span class="mi">1</span> <span class="mi">4</span> <span class="mi">4</span> <span class="mi">5</span>
+<span class="mi">3</span> <span class="mi">2</span> <span class="mi">5</span> <span class="mi">5</span>
+</code></pre></div></div>
+
+<p>Plik ten opisuje dwa przypadki. W pierwszym mamy dwa miasta połączone
+odcinkami 1-&gt;2 oraz 2-&gt;1. W drugim mamy 4-ry miasta połączonych 6-ma
+odcinkami autostrady.  Pierwsze cztery tworzą cykl
+1-&gt;2-&gt;3-&gt;4-&gt;1. Kolejne dwie powodują, że powstają także cykle 2-&gt;3-&gt;2
+oraz 1-&gt;4-&gt;1.</p>
+
+<h3 id="format-danych-wyjściowych">Format danych wyjściowych</h3>
+
+<p>Wynik działania programu należy wypisać na standardowe. Dla każdego
+przypadku z pliku wejściowego należy wypisać następujące dane:</p>
+
+<ul>
+  <li>
+    <p>w pierwszej linijce należy podać proponowaną cenę wynajmu <em>x</em> lub -1
+jeśli rozwiązanie nie istnieje.</p>
+  </li>
+  <li>
+    <p>o ile rozwiązanie istnieje, to w kolejnych <em>n</em> linijkach należy
+wpisać odcinki autostrady, które należy wynająć. Każda linijka
+składa się z dwóch liczb, <em>from</em> i <em>to</em>, mówiących że chodzi o
+odcinek autostrady prowadzący z miasta <em>from</em> do miasta <em>to</em>.</p>
+  </li>
+</ul>
+
+<p>Dla pliku wejściowego powyżej poprawnym wyjściem jest między innymi:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">-</span><span class="mi">1</span>
+<span class="mi">5</span>
+<span class="mi">2</span> <span class="mi">3</span>
+<span class="mi">3</span> <span class="mi">2</span>
+<span class="mi">1</span> <span class="mi">4</span>
+<span class="mi">4</span> <span class="mi">1</span>
+</code></pre></div></div>
+
+<h3 id="zadania-w-oioioi--zestaw-danych-ezy">Zadania w OIOIOI / Zestaw danych EZY</h3>
+
+<p>W systemie oioioi znajdują się trzy zestawy zadań:</p>
+<ul>
+  <li><a href="https://faliszew.github.io/algograf/eza-set.zip">–&gt;EZA&lt;–</a> – łatwe, ręcznie przygotowane małe dane do podstawowych testów</li>
+  <li>PRB – dane średniej wielkości</li>
+  <li>PRC – dane  duże</li>
+</ul>
+
+<h2 id="warunki-techniczne">Warunki techniczne</h2>
+
+<ul>
+  <li>Program powinien być napisany w C/C++</li>
+  <li>Program należy wysłać do systemu OIOIOI</li>
+</ul>
+
+
+
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>

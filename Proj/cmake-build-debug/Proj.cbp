@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Proj"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proj">
+				<Option output="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Proj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Proj/fast">
+				<Option output="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Proj" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/x86_64-conda_cos6-linux-gnu"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include/c++/7.3.0/backward"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/include-fixed"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../lib/gcc/x86_64-conda_cos6-linux-gnu/7.3.0/../../../../x86_64-conda_cos6-linux-gnu/include"/>
+					<Add directory="/home/DenkoV/anaconda3/bin/../x86_64-conda_cos6-linux-gnu/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 Proj/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/DenkoV/Prog/C++/Graf/Proj/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/DenkoV/Prog/C++/Graf/Proj/main.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/home/DenkoV/Prog/C++/Graf/Proj/mainold.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/home/DenkoV/Prog/C++/Graf/Proj/mainold.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/home/DenkoV/Prog/C++/Graf/Proj/old.cpp">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/home/DenkoV/Prog/C++/Graf/Proj/old.h">
+			<Option target="Proj"/>
+		</Unit>
+		<Unit filename="/home/DenkoV/Prog/C++/Graf/Proj/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

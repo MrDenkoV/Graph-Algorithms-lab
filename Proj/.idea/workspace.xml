@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Proj" targetName="Proj" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a49ed50b-34c6-4613-ae73-02130885735e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1UhL2cQGACJWJVGtjibKSHJU14Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Proj" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Proj" TARGET_NAME="Proj" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Proj" RUN_TARGET_NAME="Proj">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a49ed50b-34c6-4613-ae73-02130885735e" name="Default Changelist" comment="" />
+      <created>1575803674572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575803674572</updated>
+      <workItem from="1575803680062" duration="9194000" />
+      <workItem from="1576239087635" duration="27713000" />
+      <workItem from="1577710143960" duration="51000" />
+      <workItem from="1579813354574" duration="56000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="419" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575809434054">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="419" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1575809434054" />
+    <state width="1350" height="322" key="GridCell.Tab.0.bottom" timestamp="1576271998013">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.0.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998013" />
+    <state width="1350" height="322" key="GridCell.Tab.0.center" timestamp="1576271998012">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.0.center/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998012" />
+    <state width="1350" height="322" key="GridCell.Tab.0.left" timestamp="1576271998012">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.0.left/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998012" />
+    <state width="1350" height="322" key="GridCell.Tab.0.right" timestamp="1576271998012">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.0.right/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998012" />
+    <state width="1350" height="322" key="GridCell.Tab.1.bottom" timestamp="1576271998013">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.1.bottom/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998013" />
+    <state width="1350" height="322" key="GridCell.Tab.1.center" timestamp="1576271998013">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.1.center/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998013" />
+    <state width="1350" height="322" key="GridCell.Tab.1.left" timestamp="1576271998013">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.1.left/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998013" />
+    <state width="1350" height="322" key="GridCell.Tab.1.right" timestamp="1576271998013">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state width="1350" height="322" key="GridCell.Tab.1.right/0.0.1920.1044@0.0.1920.1044" timestamp="1576271998013" />
+    <state x="685" y="254" width="540" height="524" key="StructurePopup" timestamp="1575804566840">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="685" y="254" width="540" height="524" key="StructurePopup/0.0.1920.1044@0.0.1920.1044" timestamp="1575804566840" />
+    <state x="627" y="348" key="com.intellij.ide.util.TipDialog" timestamp="1579813369922">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="627" y="348" key="com.intellij.ide.util.TipDialog/0.0.1920.1044@0.0.1920.1044" timestamp="1579813369922" />
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup" timestamp="1576268636907">
+      <screen x="0" y="0" width="1920" height="1044" />
+    </state>
+    <state x="623" y="241" width="672" height="678" key="search.everywhere.popup/0.0.1920.1044@0.0.1920.1044" timestamp="1576268636907" />
+  </component>
+</project>

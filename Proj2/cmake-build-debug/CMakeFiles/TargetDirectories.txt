@@ -1,0 +1,3 @@
+/home/DenkoV/Prog/C++/Graf/Proj2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/DenkoV/Prog/C++/Graf/Proj2/cmake-build-debug/CMakeFiles/Proj2.dir
+/home/DenkoV/Prog/C++/Graf/Proj2/cmake-build-debug/CMakeFiles/edit_cache.dir
